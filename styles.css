@@ -55,12 +55,13 @@ body {
   border-radius: 1rem;
 }
 .main {
-    height: 17rem;
+    height: 23rem;
     /* padding-block: var(--margin-block-2); */
     display: grid;
     padding-block-start: 2rem;
 }
 .main h1 {
+    font-size: 17px;
   color: var(--white);
 }
 .main p {
