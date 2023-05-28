@@ -87,6 +87,7 @@ body {
 .footer {
   display: flex;
   place-items: center;
+  border-top:2px solid var(--blue-line) ;
 }
 .footer img{
     height: 3rem;
