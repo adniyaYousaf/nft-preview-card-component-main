@@ -55,7 +55,7 @@ body {
   border-radius: 1rem;
 }
 .main {
-    height: 23rem;
+    height: 16.5rem;
     /* padding-block: var(--margin-block-2); */
     display: grid;
     padding-block-start: 2rem;
