@@ -6,7 +6,7 @@
   --card-bg: hsl(216, 50%, 16%);
   --blue-line: hsl(215, 32%, 27%);
   --white: hsl(0, 0%, 100%);
-  --font-size: 0.9375rem;
+  --font-size: 17px;
   --ff-outline: "Outfit";
   /*---font-weight---*/
   --f-w-300: 300;
@@ -38,7 +38,7 @@ body {
   display: flex;
   flex-direction: column;
   place-items: center;
-  padding: 1.7rem;
+  padding: 1.7rem 1.7rem 0 1.7rem;
   border-radius: 1rem;
 }
 @media (max-width: 23.4375rem) {
@@ -59,9 +59,10 @@ body {
     /* padding-block: var(--margin-block-2); */
     display: grid;
     padding-block-start: 2rem;
+    padding-block-end: 1.1rem;
 }
 .main h1 {
-    font-size: 17px;
+    font-size: 23px;
   color: var(--white);
 }
 .main p {
@@ -71,6 +72,7 @@ body {
 .card {
   display: flex;
   justify-content: space-between;
+  height: 1rem;
 }
 .numbers{
     font-weight: var(--f-w-600);
