@@ -43,7 +43,7 @@ body {
 }
 @media (max-width: 23.4375rem) {
   .container {
-  width: 97vw;
+    width: 97vw;
   }
 }
 .img {
@@ -55,14 +55,14 @@ body {
   border-radius: 1rem;
 }
 .main {
-    height: 16.5rem;
-    /* padding-block: var(--margin-block-2); */
-    display: grid;
-    padding-block-start: 2rem;
-    padding-block-end: 1.1rem;
+  height: 16.5rem;
+
+  display: grid;
+  padding-block-start: 2rem;
+  padding-block-end: 1.1rem;
 }
 .main h1 {
-    font-size: 23px;
+  font-size: 23px;
   color: var(--white);
 }
 .main p {
@@ -74,31 +74,31 @@ body {
   justify-content: space-between;
   height: 1rem;
 }
-.numbers{
-    font-weight: var(--f-w-600);
-    color: var(--primary-cyan);
+.numbers {
+  font-weight: var(--f-w-600);
+  color: var(--primary-cyan);
 }
-.days{
-    font-weight: var(--f-w-600);
-    color: var(--primary-blue);
+.days {
+  font-weight: var(--f-w-600);
+  color: var(--primary-blue);
 }
-.gray-text{
-    font-size: var(--font-size);
-    color: var(--primary-blue);
+.gray-text {
+  font-size: var(--font-size);
+  color: var(--primary-blue);
 }
 
 .footer {
   display: flex;
   place-items: center;
-  border-top:2px solid var(--blue-line) ;
+  border-top: 2px solid var(--blue-line);
 }
-.footer img{
-    height: 2.3rem;
-    width: 2.3rem;
-    border-radius: 50%;
-    border: 1px solid white;
-    margin-right: 1rem;
+.footer img {
+  height: 2.3rem;
+  width: 2.3rem;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-right: 1rem;
 }
-.footer p{
-    color: white;
+.footer p {
+  color: white;
 }
